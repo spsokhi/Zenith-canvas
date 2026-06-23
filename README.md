@@ -58,6 +58,14 @@ Double-click empty space to add text; double-click a text box to edit it.
   HTML5 canvas for low-latency interaction.
 - **Storage.** Your sheets live in the browser's `localStorage` under one key; the JSON backup is
   the portable copy.
+- GitHub Pages stores your sheets in the browser's localStorage/IndexedDB under spsokhi.github.io
+- Local Zenith Canvas.html stores under file:// — a different origin entirely
+
+- Browsers keep storage strictly isolated by origin, so the two never see each other's data.
+
+## How to move data between them: 
+- use the Export All / Import All backup feature (the .json file). Export from one, import into the other — all sheets + images transfer cleanly.
+
 
 
 ---
