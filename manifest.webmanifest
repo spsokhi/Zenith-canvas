@@ -1,0 +1,14 @@
+{
+  "name": "Zenith Canvas",
+  "short_name": "Zenith",
+  "description": "A polished hand-drawn whiteboard & note-taking app.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#5b7cfa",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
